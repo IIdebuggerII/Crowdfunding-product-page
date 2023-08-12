@@ -4,12 +4,14 @@ export default function Header() {
   return (
     <>
       <menu>
-        <div className="static">
-          <img
-            src="../public/image-hero-desktop.jpg"
-            alt=""
-            className="min-w-full "
-          />
+        <div className="static ">
+          <div className="bg-black h-72 lg:h-[500px]">
+            <img
+              src="../public/image-hero-desktop.jpg"
+              alt=""
+              className="w-full object-cover object-center h-full "
+            />
+          </div>
 
           <div className="absolute  min-w-full top-4 md:top-12  flex ">
             <div className="max-w-screen-xl		 flex flex-row-reverse  justify-between items-center  m-auto w-11/12">
@@ -26,7 +28,7 @@ export default function Header() {
                   </li>
                 </ul>
               </div>
-              <div>
+              <div className="flex my-auto">
                 <img src="../public/logo.svg" alt="" />
               </div>
             </div>
