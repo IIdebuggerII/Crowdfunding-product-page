@@ -5,13 +5,10 @@ import Price from "./components/Price";
 function App() {
   return (
     <>
-      <Header></Header>
-
-      <div className="flex flex-col lg:max-w-screen-lg max-w-md items-center mx-auto relative -top-16">
-        <Bookmarker></Bookmarker>
-        <div className="relative top-80">
-          <Price></Price>
-        </div>
+      <Header />
+      <div className="md:w-9/12 lg:w-8/12 w-11/12 mx-auto ">
+        <Bookmarker />
+        <Price />
       </div>
     </>
   );

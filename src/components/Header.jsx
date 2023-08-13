@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <menu>
-        <div className="static ">
+        <div>
           <div className="bg-black h-72 lg:h-[500px]">
             <img
               src="../public/image-hero-desktop.jpg"

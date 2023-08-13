@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Bookmarker() {
   return (
-    <div className="justify-center flex">
+    <div className="justify-center flex relative  -mt-10">
       <img
         src="../public/logo-mastercraft.svg"
         alt=""
-        className="absolute z-10"
+        className="absolute z-10 -top-5"
       />
-      <div className="top-6 absolute bg-white pt-14 rounded-xl border min-w-full justify-center flex flex-col">
+      <div className="top-6  bg-white pt-14 rounded-lg border min-w-full justify-center flex flex-col">
         <div className="flex flex-col justify-center items-center">
           <p className="text-Black  text-2xl font-extrabold px-16 text-center">
             Mastercraft Bamboo Monitor Riser
