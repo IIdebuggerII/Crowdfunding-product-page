@@ -19,7 +19,7 @@ export default function Bookmarker() {
           </p>
         </div>
         <div className="flex justify-around pt-8 pb-9">
-          <button className="rounded-3xl bg-Cyan text-white font-bold p-4 w-9/12 lg:w-4/12 hover:bg-DarkCyan">
+          <button className="rounded-3xl bg-Cyan text-white font-bold p-4 w-9/12 lg:w-3/12 hover:bg-DarkCyan">
             Back this project
           </button>
           <button className="rounded-full flex items-center bg-gray-200">
